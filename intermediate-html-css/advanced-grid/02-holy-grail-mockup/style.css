@@ -95,10 +95,10 @@
 .container{
   display: grid;
   grid-template-areas: 
-    "header header  header  header  header"
-    "side   nav     nav     nav     nav"
-    "side   article article article article"
-    "footer footer  footer  footer  footer";
+    "header header "
+    "side   nav    "
+    "side   article"
+    "footer footer ";
   gap:4px;
 }
 
